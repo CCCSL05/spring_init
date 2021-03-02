@@ -1,0 +1,27 @@
+server:
+  port: 8033
+  servlet:
+    context-path: /root
+
+
+hobby:
+  - lanqiu
+  - zuqiu
+
+#hobby1: [lanqiu,zuqiu]
+#map1: {k1:v1,k2:v2}
+
+map:
+  k1: v1
+  k2: v2
+
+person:
+  age: 18
+  name: zhangsan
+  hobby: [lanqiu,zuqiu]
+  family: [laoda,laoer]
+  map: {k1: v1,k2: v2}
+  Pet: {type: dog,name: ziqi}
+
+user:
+  email: zhangsan@163.com
